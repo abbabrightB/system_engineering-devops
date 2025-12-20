@@ -1,2 +1,4 @@
 #!/bin/bash
-chmod -R ugo+x *
+# Adds execute permission to all subdirectories for all users
+
+chmod a+X */
